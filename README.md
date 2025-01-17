@@ -13,6 +13,6 @@ https://bingo-driven-frontend.vercel.app/
 ### Deploy local
 
 1. Crie um arquivo `docker-compose.yml` e configure o serviço conforme desejar.
-    * É necessário alterar a variável de ambiente `VITE_BACKEND` para a URL do back-end.
+    * É necessário passar a URL do back-end pela variável de ambiente `VITE_BACKEND`.
     * O arquivo [`docker-compose.yml`](./docker-compose.yml) do repositório pode ser copiado e usado.
 2. Execute o comando `docker compose up` no diretório do arquivo.
