@@ -1,0 +1,8 @@
+services:
+  frontend:
+    container_name: bingo-driven-frontend
+    build: .
+    ports:
+      - 80:80
+    environment:
+      VITE_BACKEND: http://localhost:5000
